@@ -1,0 +1,983 @@
+{
+ "_source": "Serial codes from KOReader frontend/device/kindle/device.lua (AGPL-3.0, github.com/koreader/koreader). Old models: serial chars 3-4 when it starts with B or 9; newer: chars 4-6.",
+ "_mtp_note": "mtp=true means the Kindle connects over MTP (no USB drive). Scribe 2022 switched to MTP with firmware 5.16.3.",
+ "legacy": {
+  "02": {
+   "key": "k2",
+   "name": "Kindle 2",
+   "mtp": false
+  },
+  "03": {
+   "key": "k2",
+   "name": "Kindle 2",
+   "mtp": false
+  },
+  "04": {
+   "key": "dx",
+   "name": "Kindle DX",
+   "mtp": false
+  },
+  "05": {
+   "key": "dx",
+   "name": "Kindle DX",
+   "mtp": false
+  },
+  "09": {
+   "key": "dxg",
+   "name": "Kindle DX Graphite",
+   "mtp": false
+  },
+  "08": {
+   "key": "k3",
+   "name": "Kindle Keyboard",
+   "mtp": false
+  },
+  "06": {
+   "key": "k3",
+   "name": "Kindle Keyboard",
+   "mtp": false
+  },
+  "0A": {
+   "key": "k3",
+   "name": "Kindle Keyboard",
+   "mtp": false
+  },
+  "0E": {
+   "key": "k4",
+   "name": "Kindle 4",
+   "mtp": false
+  },
+  "23": {
+   "key": "k4",
+   "name": "Kindle 4",
+   "mtp": false
+  },
+  "0F": {
+   "key": "touch",
+   "name": "Kindle Touch",
+   "mtp": false
+  },
+  "11": {
+   "key": "touch",
+   "name": "Kindle Touch",
+   "mtp": false
+  },
+  "10": {
+   "key": "touch",
+   "name": "Kindle Touch",
+   "mtp": false
+  },
+  "12": {
+   "key": "touch",
+   "name": "Kindle Touch",
+   "mtp": false
+  },
+  "24": {
+   "key": "pw",
+   "name": "Paperwhite (1st gen, 2012)",
+   "mtp": false
+  },
+  "1B": {
+   "key": "pw",
+   "name": "Paperwhite (1st gen, 2012)",
+   "mtp": false
+  },
+  "1D": {
+   "key": "pw",
+   "name": "Paperwhite (1st gen, 2012)",
+   "mtp": false
+  },
+  "1F": {
+   "key": "pw",
+   "name": "Paperwhite (1st gen, 2012)",
+   "mtp": false
+  },
+  "1C": {
+   "key": "pw",
+   "name": "Paperwhite (1st gen, 2012)",
+   "mtp": false
+  },
+  "20": {
+   "key": "pw",
+   "name": "Paperwhite (1st gen, 2012)",
+   "mtp": false
+  },
+  "D4": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "5A": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "D5": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "D6": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "D7": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "D8": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "F2": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "17": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "60": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "F4": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "F9": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "62": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "61": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "5F": {
+   "key": "pw2",
+   "name": "Paperwhite 2 (2013)",
+   "mtp": false
+  },
+  "C6": {
+   "key": "kt2",
+   "name": "Kindle (7th gen, 2014)",
+   "mtp": false
+  },
+  "DD": {
+   "key": "kt2",
+   "name": "Kindle (7th gen, 2014)",
+   "mtp": false
+  },
+  "13": {
+   "key": "kv",
+   "name": "Kindle Voyage",
+   "mtp": false
+  },
+  "54": {
+   "key": "kv",
+   "name": "Kindle Voyage",
+   "mtp": false
+  },
+  "2A": {
+   "key": "kv",
+   "name": "Kindle Voyage",
+   "mtp": false
+  },
+  "4F": {
+   "key": "kv",
+   "name": "Kindle Voyage",
+   "mtp": false
+  },
+  "52": {
+   "key": "kv",
+   "name": "Kindle Voyage",
+   "mtp": false
+  },
+  "53": {
+   "key": "kv",
+   "name": "Kindle Voyage",
+   "mtp": false
+  }
+ },
+ "v2": {
+  "0G1": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0G2": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0G4": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0G5": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0G6": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0G7": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0KB": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0KC": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0KD": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0KE": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0KF": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0KG": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0LK": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0LL": {
+   "key": "pw3",
+   "name": "Paperwhite 3 (2015)",
+   "mtp": false
+  },
+  "0GC": {
+   "key": "koa",
+   "name": "Kindle Oasis (2016)",
+   "mtp": false
+  },
+  "0GD": {
+   "key": "koa",
+   "name": "Kindle Oasis (2016)",
+   "mtp": false
+  },
+  "0GR": {
+   "key": "koa",
+   "name": "Kindle Oasis (2016)",
+   "mtp": false
+  },
+  "0GS": {
+   "key": "koa",
+   "name": "Kindle Oasis (2016)",
+   "mtp": false
+  },
+  "0GT": {
+   "key": "koa",
+   "name": "Kindle Oasis (2016)",
+   "mtp": false
+  },
+  "0GU": {
+   "key": "koa",
+   "name": "Kindle Oasis (2016)",
+   "mtp": false
+  },
+  "0LM": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0LN": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0LP": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0LQ": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0P1": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0P2": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0P6": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0P7": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0P8": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0S1": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0S2": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0S3": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0S4": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0S7": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0SA": {
+   "key": "koa2",
+   "name": "Kindle Oasis 2 (2017)",
+   "mtp": false
+  },
+  "0DU": {
+   "key": "kt3",
+   "name": "Kindle (8th gen, 2016)",
+   "mtp": false
+  },
+  "0K9": {
+   "key": "kt3",
+   "name": "Kindle (8th gen, 2016)",
+   "mtp": false
+  },
+  "0KA": {
+   "key": "kt3",
+   "name": "Kindle (8th gen, 2016)",
+   "mtp": false
+  },
+  "0PP": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0T1": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0T2": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0T3": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0T4": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0T5": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0T6": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0T7": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0TJ": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0TK": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0TL": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0TM": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "0TN": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "102": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "103": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "16Q": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "16R": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "16S": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "16T": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "16U": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "16V": {
+   "key": "pw4",
+   "name": "Paperwhite 4 (10th gen, 2018)",
+   "mtp": false
+  },
+  "10L": {
+   "key": "kt4",
+   "name": "Kindle (10th gen, 2019)",
+   "mtp": false
+  },
+  "0WF": {
+   "key": "kt4",
+   "name": "Kindle (10th gen, 2019)",
+   "mtp": false
+  },
+  "0WG": {
+   "key": "kt4",
+   "name": "Kindle (10th gen, 2019)",
+   "mtp": false
+  },
+  "0WH": {
+   "key": "kt4",
+   "name": "Kindle (10th gen, 2019)",
+   "mtp": false
+  },
+  "0WJ": {
+   "key": "kt4",
+   "name": "Kindle (10th gen, 2019)",
+   "mtp": false
+  },
+  "0VB": {
+   "key": "kt4",
+   "name": "Kindle (10th gen, 2019)",
+   "mtp": false
+  },
+  "11L": {
+   "key": "koa3",
+   "name": "Kindle Oasis 3 (2019)",
+   "mtp": false
+  },
+  "0WQ": {
+   "key": "koa3",
+   "name": "Kindle Oasis 3 (2019)",
+   "mtp": false
+  },
+  "0WP": {
+   "key": "koa3",
+   "name": "Kindle Oasis 3 (2019)",
+   "mtp": false
+  },
+  "0WN": {
+   "key": "koa3",
+   "name": "Kindle Oasis 3 (2019)",
+   "mtp": false
+  },
+  "0WM": {
+   "key": "koa3",
+   "name": "Kindle Oasis 3 (2019)",
+   "mtp": false
+  },
+  "0WL": {
+   "key": "koa3",
+   "name": "Kindle Oasis 3 (2019)",
+   "mtp": false
+  },
+  "1Q0": {
+   "key": "pw5",
+   "name": "Paperwhite 5 (11th gen, 2021)",
+   "mtp": false
+  },
+  "1PX": {
+   "key": "pw5",
+   "name": "Paperwhite 5 (11th gen, 2021)",
+   "mtp": false
+  },
+  "1VD": {
+   "key": "pw5",
+   "name": "Paperwhite 5 (11th gen, 2021)",
+   "mtp": false
+  },
+  "21A": {
+   "key": "pw5",
+   "name": "Paperwhite 5 (11th gen, 2021)",
+   "mtp": false
+  },
+  "2BJ": {
+   "key": "pw5",
+   "name": "Paperwhite 5 (11th gen, 2021)",
+   "mtp": false
+  },
+  "2DK": {
+   "key": "pw5",
+   "name": "Paperwhite 5 (11th gen, 2021)",
+   "mtp": false
+  },
+  "1LG": {
+   "key": "pw5se",
+   "name": "Paperwhite Signature Edition (11th gen)",
+   "mtp": false
+  },
+  "219": {
+   "key": "pw5se",
+   "name": "Paperwhite Signature Edition (11th gen)",
+   "mtp": false
+  },
+  "2BH": {
+   "key": "pw5se",
+   "name": "Paperwhite Signature Edition (11th gen)",
+   "mtp": false
+  },
+  "22D": {
+   "key": "kt5",
+   "name": "Kindle (11th gen, 2022)",
+   "mtp": false
+  },
+  "25T": {
+   "key": "kt5",
+   "name": "Kindle (11th gen, 2022)",
+   "mtp": false
+  },
+  "23A": {
+   "key": "kt5",
+   "name": "Kindle (11th gen, 2022)",
+   "mtp": false
+  },
+  "2AQ": {
+   "key": "kt5",
+   "name": "Kindle (11th gen, 2022)",
+   "mtp": false
+  },
+  "2AP": {
+   "key": "kt5",
+   "name": "Kindle (11th gen, 2022)",
+   "mtp": false
+  },
+  "1XH": {
+   "key": "kt5",
+   "name": "Kindle (11th gen, 2022)",
+   "mtp": false
+  },
+  "22C": {
+   "key": "kt5",
+   "name": "Kindle (11th gen, 2022)",
+   "mtp": false
+  },
+  "27J": {
+   "key": "ks",
+   "name": "Kindle Scribe (2022)",
+   "mtp": true
+  },
+  "2BL": {
+   "key": "ks",
+   "name": "Kindle Scribe (2022)",
+   "mtp": true
+  },
+  "263": {
+   "key": "ks",
+   "name": "Kindle Scribe (2022)",
+   "mtp": true
+  },
+  "227": {
+   "key": "ks",
+   "name": "Kindle Scribe (2022)",
+   "mtp": true
+  },
+  "2BM": {
+   "key": "ks",
+   "name": "Kindle Scribe (2022)",
+   "mtp": true
+  },
+  "23L": {
+   "key": "ks",
+   "name": "Kindle Scribe (2022)",
+   "mtp": true
+  },
+  "23M": {
+   "key": "ks",
+   "name": "Kindle Scribe (2022)",
+   "mtp": true
+  },
+  "270": {
+   "key": "ks",
+   "name": "Kindle Scribe (2022)",
+   "mtp": true
+  },
+  "3H2": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "3H4": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "3H6": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "3H7": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "3H9": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "3JT": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "3J6": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "455": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "456": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "4EP": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "34X": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "3HB": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "5R6": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "5R7": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "5R8": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "5R9": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "5RA": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "5RB": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "65R": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "65S": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "65T": {
+   "key": "kcs",
+   "name": "Kindle Colorsoft (2024)",
+   "mtp": true
+  },
+  "A89": {
+   "key": "kt6",
+   "name": "Kindle (12th gen, 2024)",
+   "mtp": true
+  },
+  "3L2": {
+   "key": "kt6",
+   "name": "Kindle (12th gen, 2024)",
+   "mtp": true
+  },
+  "3L3": {
+   "key": "kt6",
+   "name": "Kindle (12th gen, 2024)",
+   "mtp": true
+  },
+  "3L4": {
+   "key": "kt6",
+   "name": "Kindle (12th gen, 2024)",
+   "mtp": true
+  },
+  "3L5": {
+   "key": "kt6",
+   "name": "Kindle (12th gen, 2024)",
+   "mtp": true
+  },
+  "3L6": {
+   "key": "kt6",
+   "name": "Kindle (12th gen, 2024)",
+   "mtp": true
+  },
+  "3KM": {
+   "key": "kt6",
+   "name": "Kindle (12th gen, 2024)",
+   "mtp": true
+  },
+  "33W": {
+   "key": "pw6",
+   "name": "Paperwhite (12th gen, 2024)",
+   "mtp": true
+  },
+  "33X": {
+   "key": "pw6",
+   "name": "Paperwhite (12th gen, 2024)",
+   "mtp": true
+  },
+  "346": {
+   "key": "pw6",
+   "name": "Paperwhite (12th gen, 2024)",
+   "mtp": true
+  },
+  "349": {
+   "key": "pw6",
+   "name": "Paperwhite (12th gen, 2024)",
+   "mtp": true
+  },
+  "3H3": {
+   "key": "pw6",
+   "name": "Paperwhite (12th gen, 2024)",
+   "mtp": true
+  },
+  "3H5": {
+   "key": "pw6",
+   "name": "Paperwhite (12th gen, 2024)",
+   "mtp": true
+  },
+  "3H8": {
+   "key": "pw6",
+   "name": "Paperwhite (12th gen, 2024)",
+   "mtp": true
+  },
+  "3HA": {
+   "key": "pw6",
+   "name": "Paperwhite (12th gen, 2024)",
+   "mtp": true
+  },
+  "3J5": {
+   "key": "pw6",
+   "name": "Paperwhite (12th gen, 2024)",
+   "mtp": true
+  },
+  "3JS": {
+   "key": "pw6",
+   "name": "Paperwhite (12th gen, 2024)",
+   "mtp": true
+  },
+  "3V0": {
+   "key": "ks2",
+   "name": "Kindle Scribe (2024)",
+   "mtp": true
+  },
+  "3V1": {
+   "key": "ks2",
+   "name": "Kindle Scribe (2024)",
+   "mtp": true
+  },
+  "3X5": {
+   "key": "ks2",
+   "name": "Kindle Scribe (2024)",
+   "mtp": true
+  },
+  "3UV": {
+   "key": "ks2",
+   "name": "Kindle Scribe (2024)",
+   "mtp": true
+  },
+  "3X4": {
+   "key": "ks2",
+   "name": "Kindle Scribe (2024)",
+   "mtp": true
+  },
+  "3X3": {
+   "key": "ks2",
+   "name": "Kindle Scribe (2024)",
+   "mtp": true
+  },
+  "41E": {
+   "key": "ks2",
+   "name": "Kindle Scribe (2024)",
+   "mtp": true
+  },
+  "410": {
+   "key": "ks2",
+   "name": "Kindle Scribe (2024)",
+   "mtp": true
+  },
+  "4PG": {
+   "key": "ks3",
+   "name": "Kindle Scribe (3rd gen)",
+   "mtp": true
+  },
+  "4PE": {
+   "key": "ks3",
+   "name": "Kindle Scribe (3rd gen)",
+   "mtp": true
+  },
+  "4PL": {
+   "key": "ks3",
+   "name": "Kindle Scribe (3rd gen)",
+   "mtp": true
+  },
+  "4F8": {
+   "key": "ks3",
+   "name": "Kindle Scribe (3rd gen)",
+   "mtp": true
+  },
+  "4FA": {
+   "key": "ks3",
+   "name": "Kindle Scribe (3rd gen)",
+   "mtp": true
+  },
+  "454": {
+   "key": "ks3",
+   "name": "Kindle Scribe (3rd gen)",
+   "mtp": true
+  },
+  "4VX": {
+   "key": "kscs",
+   "name": "Kindle Scribe Colorsoft",
+   "mtp": true
+  },
+  "4PF": {
+   "key": "kscs",
+   "name": "Kindle Scribe Colorsoft",
+   "mtp": true
+  },
+  "4PH": {
+   "key": "kscs",
+   "name": "Kindle Scribe Colorsoft",
+   "mtp": true
+  },
+  "4F9": {
+   "key": "kscs",
+   "name": "Kindle Scribe Colorsoft",
+   "mtp": true
+  },
+  "4FB": {
+   "key": "kscs",
+   "name": "Kindle Scribe Colorsoft",
+   "mtp": true
+  },
+  "46P": {
+   "key": "kscs",
+   "name": "Kindle Scribe Colorsoft",
+   "mtp": true
+  }
+ }
+}

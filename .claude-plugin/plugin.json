@@ -1,0 +1,9 @@
+{
+  "name": "kindle-companion",
+  "version": "0.1.0",
+  "description": "Manage a Kindle from a Mac with Claude: MTP-safe device access, jailbreak guidance, KOReader plugins, sideloading, AZW3-to-EPUB migration with reading positions, collections, clean-up, backups, and a weekly highlights report.",
+  "author": { "name": "ogyet" },
+  "homepage": "https://github.com/ogyet/kindle-companion",
+  "license": "MIT",
+  "keywords": ["kindle", "koreader", "calibre", "ebooks", "highlights", "mtp"]
+}

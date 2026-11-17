@@ -1,0 +1,14 @@
+{
+  "name": "kindle-companion",
+  "description": "Claude skill for managing a Kindle from a Mac.",
+  "owner": {
+    "name": "ogyet"
+  },
+  "plugins": [
+    {
+      "name": "kindle-companion",
+      "source": "./",
+      "description": "Manage a Kindle from a Mac with Claude: device access, jailbreak guidance, KOReader, migration, collections, backups and weekly highlights reports."
+    }
+  ]
+}
