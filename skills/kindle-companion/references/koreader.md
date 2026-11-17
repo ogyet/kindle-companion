@@ -32,8 +32,8 @@ Always read the plugin's README first. Some need an extra step, such as a patch 
 
 | Plugin | Repo | What it adds |
 |---|---|---|
-| SimpleUI | `doctorhetfield-cmd/simpleui.koplugin` | A simpler home screen and library, with collections shown as shelves. The most-recommended "make KOReader friendly" plugin. |
-| Storefront | `ultimatejimmy/storefront.koplugin` | Browse and download free books (Standard Ebooks, Project Gutenberg, OPDS catalogs) on the device. Read its wiki install page. |
+| SimpleUI | `doctorhetfield-cmd/simpleui.koplugin` | A customizable home screen with a bottom navigation bar, a top bar and desktop-style widgets. |
+| Storefront | `ultimatejimmy/storefront.koplugin` | A plugin store inside KOReader: discover, install and update plugins, patches, fonts and screensavers on the device. It does not download books (for free books, use KOReader's built-in OPDS catalog). |
 | Zen UI | `AnthonyGress/zen_ui.koplugin` | An alternative minimal interface. Pick it or SimpleUI, not both. |
 | KoInsight | `dev107/KoInsight` | Reading statistics dashboard (a server on the Mac plus a plugin). |
 
